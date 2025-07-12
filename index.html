@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="todo-container">
+    <h1>🎯 TO-DO LIST</h1>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Add a new task..." required />
+      <button type="submit">➕</button>
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <div class="footer">
+      <span id="task-count">0 tasks</span>
+      <button id="clear-all">🧹 Clear All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
